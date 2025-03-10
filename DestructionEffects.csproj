@@ -8,8 +8,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7BBA3030-1674-4759-8DEA-2012D86512BC}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>DestructionEffects</RootNamespace>
-    <AssemblyName>DestructionEffects</AssemblyName>
+    <RootNamespace>DestructionEffectsContinued</RootNamespace>
+    <AssemblyName>DestructionEffectsContinued</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -57,12 +57,10 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\_LocalDev\KSPRefs\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="KSPAssets">
-      <HintPath>..\_LocalDev\KSPRefs\KSPAssets.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\KSPAssets.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System" />
@@ -72,23 +70,19 @@
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Threading.Thread" />
     <Reference Include="UnityEngine">
-      <HintPath>..\_LocalDev\KSPRefs\UnityEngine.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\_LocalDev\KSPRefs\UnityEngine.CoreModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>..\_LocalDev\KSPRefs\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\_LocalDev\KSPRefs\UnityEngine.PhysicsModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DestructionEffects\BDAcheck.cs" />
     <Compile Include="DestructionEffects\DEGaplessParticleEmitter.cs" />
     <Compile Include="DestructionEffects\DESettings.cs" />
     <Compile Include="DestructionEffects\FlamingJoints.cs" />
@@ -111,9 +105,9 @@
     <Content Include="Distribution\GameData\DestructionEffects\Models\FlameEffect2\Torchanimation_135.png" />
     <Content Include="Distribution\GameData\DestructionEffects\Models\FlameEffect_Legacy\ExpTex2.png" />
     <Content Include="Distribution\GameData\DestructionEffects\Models\FlameEffect_Legacy\smoke.png" />
-    <Content Include="Distribution\GameData\DestructionEffects\Plugins\DestructionEffects.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Distribution\GameData\DestructionEffects\Plugins\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
