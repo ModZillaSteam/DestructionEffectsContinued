@@ -1,20 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2005
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestructionEffects", "DestructionEffects.csproj", "{7BBA3030-1674-4759-8DEA-2012D86512BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestructionEffectsContinued", "DestructionEffectsContinued.csproj", "{7BBA3030-1674-4759-8DEA-2012D86512BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Debug|x86.ActiveCfg = Debug|x86
+		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Debug|x86.Build.0 = Debug|x86
 		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Release|x86.ActiveCfg = Release|x86
+		{7BBA3030-1674-4759-8DEA-2012D86512BC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
