@@ -10,8 +10,8 @@ namespace DestructionEffects
     [KSPAddon(KSPAddon.Startup.Flight, false)]
     public class FlamingJoints : MonoBehaviour
     {
-        private const string NewFlameModelPath = "DestructionEffects/Models/FlameEffect2/model";
-        private const string LegacyFlameModelPath = "DestructionEffects/Models/FlameEffect_Legacy/model";
+        private const string NewFlameModelPath = "DestructionEffectsContinued/Models/FlameEffect2/model";
+        private const string LegacyFlameModelPath = "DestructionEffectsContinued/Models/FlameEffect_Legacy/model";
         //private float timeNoFlames;
         //private Vessel LastVesselLoaded = null;
         public static List<GameObject> FlameObjects = new List<GameObject>();             

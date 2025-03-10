@@ -9,7 +9,7 @@ namespace DestructionEffects
     [KSPAddon(KSPAddon.Startup.EveryScene, false)]
     public class DESettings : MonoBehaviour
     {
-        public static string settingsConfigURL = "GameData/DestructionEffects/settings.cfg";
+        public static string settingsConfigURL = "GameData/DestructionEffectsContinued/settings.cfg";
         //=======configurable settings
 
         public static bool LegacyEffect = false;
@@ -24,7 +24,7 @@ namespace DestructionEffects
         {
             try
             {
-                Debug.Log("== DestructionEffects: Loading settings.cfg ==");
+                Debug.Log("== DestructionEffectsContinued: Loading settings.cfg ==");
 
                 ConfigNode fileNode = ConfigNode.Load(settingsConfigURL);
                 if (!fileNode.HasNode("DESettings")) return;
@@ -36,7 +36,7 @@ namespace DestructionEffects
             }
             catch (NullReferenceException)
             {
-                Debug.Log("== DestructionEffects : Failed to load settings config==");
+                Debug.Log("== DestructionEffectsContinued : Failed to load settings config==");
             }
         }
     }

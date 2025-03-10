@@ -111,7 +111,7 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Distribution\GameData\DestructionEffectsContinued\DestructionEffects.version" />
+    <None Include="Distribution\GameData\DestructionEffectsContinued\DestructionEffectsContinued.version" />
     <None Include="Distribution\GameData\DestructionEffectsContinued\Models\FlameEffect2\model.mu" />
     <None Include="Distribution\GameData\DestructionEffectsContinued\Models\FlameEffect_Legacy\model.mu" />
     <None Include="Distribution\GameData\DestructionEffectsContinued\settings.cfg" />
