@@ -1,5 +1,5 @@
 # DestructionEffects
-Adds flames and smoke to joint-breaks of certain parts in ksp.
+Adds flames and smoke to joint-breaks of certain parts in ksp. No other addons required
 
 Joint breaks and flames are associated with the following parts:
 
