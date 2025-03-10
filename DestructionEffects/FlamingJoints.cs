@@ -118,10 +118,6 @@ namespace DestructionEffects
 
             if (breakForce == 0)
             {
-                // probably the BDa check is not required as I think the fix should work also in other situations
-                if (!BDACheck.bdaAvailable)
-                    return;
-
                 // this checks if the joint connects a parent and a child (other cases are autostruts that we do not want)
                 if (!(deadPartsParents.Contains(new KeyValuePair<uint, uint>(partJoint.Host.flightID, partJoint.Target.flightID)) || deadPartsParents.ContainsKey(partJoint.Target.flightID)))
                 {
