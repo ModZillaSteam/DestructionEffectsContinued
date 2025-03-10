@@ -88,7 +88,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DestructionEffects\BDAcheck.cs" />
     <Compile Include="DestructionEffects\DEGaplessParticleEmitter.cs" />
     <Compile Include="DestructionEffects\DESettings.cs" />
     <Compile Include="DestructionEffects\FlamingJoints.cs" />
